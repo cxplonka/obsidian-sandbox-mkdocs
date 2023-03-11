@@ -1,0 +1,92 @@
+# see https://www.mkdocs.org/user-guide/configuration/
+site_name: Documentation
+
+theme:
+    name: 'material'
+    locale: en
+    custom_dir: overrides
+    
+    features: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
+    - search.highlight
+    - search.suggest
+    - search.share
+    - navigation.footer
+    - content.code.copy
+    
+    palette:
+
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+# Extensions
+markdown_extensions:
+  - pymdownx.highlight: # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
+      linenums: true
+      anchor_linenums: true
+      use_pygments: true # pyments not work with mermaid
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - footnotes
+  - admonition
+  - nl2br
+  # - attr_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.details
+  # - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - def_list
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+  - toc:
+      permalink: true
+
+plugins:
+  - tags
+  # https://pypi.org/project/mkdocs-callouts/
+  - callouts
+  - search:
+      indexing: 'full'
+  - roamlinks
+  - mermaid2
+  # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+  - git-revision-date-localized:
+      locale: en
+      fallback_to_build_date: true
+  # https://github.com/apenwarr/mkdocs-exclude
+  - exclude:
+      regex:
+        - .*slide.*.md
+  # https://github.com/timvink/mkdocs-git-authors-plugin
+  - git-authors
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+#  - https://unpkg.com/mermaid/dist/mermaid.min.js
