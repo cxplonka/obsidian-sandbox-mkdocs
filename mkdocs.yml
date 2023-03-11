@@ -68,6 +68,8 @@ markdown_extensions:
 
 plugins:
   - tags
+  # https://blueswen.github.io/mkdocs-glightbox/
+  - glightbox
   # https://pypi.org/project/mkdocs-callouts/
   - callouts
   - search:
