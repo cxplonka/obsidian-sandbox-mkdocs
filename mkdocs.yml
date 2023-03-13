@@ -1,5 +1,17 @@
 # see https://www.mkdocs.org/user-guide/configuration/
-site_name: Documentation
+# Project information
+site_name: Obsidian help in MkDocs Material
+site_url: https://cxplonka.github.io/obsidian-sandbox-mkdocs/
+site_author: Christian Plonka
+site_description: >-
+  Obsidian help vault build with MkDocs and use the Material theme
+  
+# Repository
+repo_name: cxplonka/obsidian-sandbox-mkdocs
+repo_url: https://github.com/cxplonka/obsidian-sandbox-mkdocs
+
+# Copyright
+copyright: Copyright &copy; 2016 - 2023 Christian Plonka
 
 theme:
     name: 'material'
@@ -32,6 +44,14 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+# Customization
+extra:
+  social:
+    - icon: fontawesome/regular/house
+      link: https://cxplonka.github.io/
+    - icon: fontawesome/brands/github
+      link: https://github.com/cxplonka
 
 # Extensions
 markdown_extensions:
