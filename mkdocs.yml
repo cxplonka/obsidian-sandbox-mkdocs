@@ -48,7 +48,7 @@ theme:
 # Customization
 extra:
   social:
-    - icon: fontawesome/regular/house
+    - icon: fontawesome/solid/house
       link: https://cxplonka.github.io/
     - icon: fontawesome/brands/github
       link: https://github.com/cxplonka
