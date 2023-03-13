@@ -9,6 +9,7 @@ site_description: >-
 # Repository
 repo_name: cxplonka/obsidian-sandbox-mkdocs
 repo_url: https://github.com/cxplonka/obsidian-sandbox-mkdocs
+edit_uri: edit/main/docs/
 
 # Copyright
 copyright: Copyright &copy; 2016 - 2023 Christian Plonka
@@ -24,6 +25,7 @@ theme:
     - search.share
     - navigation.footer
     - content.code.copy
+    - content.action.edit
     
     palette:
 
@@ -97,7 +99,9 @@ plugins:
   - roamlinks
   - mermaid2
   # https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
+  # https://squidfunk.github.io/mkdocs-material/setup/adding-a-git-repository/
   - git-revision-date-localized:
+      type: timeago
       locale: en
       fallback_to_build_date: true
   # https://github.com/apenwarr/mkdocs-exclude
