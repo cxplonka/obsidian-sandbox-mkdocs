@@ -25,6 +25,7 @@ theme:
     - search.share
     - navigation.footer
     - content.code.copy
+    - content.action.view
     - content.action.edit
     
     palette:
