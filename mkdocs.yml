@@ -1,6 +1,6 @@
 # see https://www.mkdocs.org/user-guide/configuration/
 # Project information
-site_name: Obsidian help in MkDocs Material
+site_name: Obsidian + MkDocs Template
 site_url: https://cxplonka.github.io/obsidian-sandbox-mkdocs/
 site_author: Christian Plonka
 site_description: >-
@@ -12,12 +12,13 @@ repo_url: https://github.com/cxplonka/obsidian-sandbox-mkdocs
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2016 - 2023 Christian Plonka
+copyright: Copyright &copy; 2023 Christian Plonka
 
 theme:
     name: 'material'
     locale: en
-    custom_dir: overrides
+    custom_dir: .overrides
+    favicon: 'assets/images/favicon.ico'
     
     features: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
     - search.highlight
