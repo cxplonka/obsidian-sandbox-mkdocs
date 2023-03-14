@@ -86,6 +86,7 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - markdown_captions
 
   - toc:
       permalink: true
@@ -93,7 +94,8 @@ markdown_extensions:
 plugins:
   - tags
   # https://blueswen.github.io/mkdocs-glightbox/
-  - glightbox
+  - glightbox:
+      auto_caption: true # img caption-alt https://pypi.org/project/mkdocs-glightbox/
   # https://pypi.org/project/mkdocs-callouts/
   - callouts
   - search:
