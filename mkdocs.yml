@@ -86,7 +86,8 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
-  - markdown_captions
+  - mdx_truly_sane_lists # better lists
+  - markdown_captions # image caption support
 
   - toc:
       permalink: true
