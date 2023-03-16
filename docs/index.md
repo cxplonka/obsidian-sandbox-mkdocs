@@ -21,7 +21,7 @@ Check out the complete [Obsidian documentation](https://help.obsidian.md/) onlin
 
 ## Markdown shortcut
 
-![](markdown_short%201.png)
+![](markdown_short.png)
 
 ---
 
