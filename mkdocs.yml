@@ -87,6 +87,7 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - mdx_truly_sane_lists # better lists
+  - mdx_breakless_lists # https://github.com/adamb70/mdx-breakless-lists
   - markdown_captions # image caption support
 
   - toc:

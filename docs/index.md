@@ -19,6 +19,12 @@ Check out the complete [Obsidian documentation](https://help.obsidian.md/) onlin
 
 ---
 
+## Markdown shortcut
+
+![](markdown_short%201.png)
+
+---
+
 ## What is this place?
 
 This is a sandbox vault in which you can test various functionality of Obsidian. 
@@ -30,5 +36,3 @@ This is a sandbox vault in which you can test various functionality of Obsidian.
 > This sandbox vault is in beta!
 > 
 > If you spot a typo or a mistake, feel free to submit a pull request [here](https://github.com/obsidianmd/obsidian-docs/tree/master/Sandbox).
-
-
