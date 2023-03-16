@@ -12,7 +12,7 @@ repo_url: https://github.com/cxplonka/obsidian-sandbox-mkdocs
 edit_uri: edit/main/docs/
 
 # Copyright
-copyright: Copyright &copy; 2023 Christian Plonka
+copyright: Made with ❤️ by Christian
 
 theme:
     name: 'material'
