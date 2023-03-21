@@ -23,4 +23,5 @@ jobs:
       - run: pip3 install markdown_captions
       - run: pip3 install mdx_truly_sane_lists
       - run: pip3 install mdx-breakless-lists
+      - run: pip3 install mdx-charts-plugin
       - run: mkdocs gh-deploy --force
