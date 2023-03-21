@@ -79,6 +79,9 @@ markdown_extensions:
         - name: vega-lite
           class: vegalite
           format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
+        - name: vega
+          class: vega
+          format: !!python/name:mkdocs_charts_plugin.fences.fence_vega
   - pymdownx.details
   - pymdownx.magiclink
   - pymdownx.tasklist:
