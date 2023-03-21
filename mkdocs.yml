@@ -76,8 +76,8 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-        - name: vegalite
-          class: vega-lite
+        - name: vega-lite
+          class: vegalite
           format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
   - pymdownx.details
   - pymdownx.magiclink
