@@ -79,9 +79,6 @@ markdown_extensions:
         - name: vega-lite
           class: vegalite
           format: !!python/name:mkdocs_charts_plugin.fences.fence_vegalite
-        - name: vega
-          class: vega
-          format: !!python/name:mkdocs_charts_plugin.fences.fence_vega
   - pymdownx.details
   - pymdownx.magiclink
   - pymdownx.tasklist:
@@ -100,7 +97,9 @@ markdown_extensions:
       permalink: true
 
 plugins:
-  - charts
+  - charts:
+      data_path: 'docs/
+      vega_renderer: 'canvas'
   - tags
   # https://blueswen.github.io/mkdocs-glightbox/
   - glightbox:
