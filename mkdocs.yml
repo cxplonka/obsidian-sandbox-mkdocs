@@ -98,7 +98,7 @@ markdown_extensions:
 
 plugins:
   - charts:
-      data_path: 'docs/
+      data_path: 'docs/'
       vega_renderer: 'canvas'
   - tags
   # https://blueswen.github.io/mkdocs-glightbox/
