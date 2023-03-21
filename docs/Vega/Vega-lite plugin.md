@@ -7,7 +7,7 @@
 
 ## Histogram
 
-```vegalite
+```vega-lite
 { "$schema": "https://vega.github.io/schema/vega-lite/v5.json", "data": { "values": [ {"bin_start": 8, "bin_end": 10, "count": 7}, {"bin_start": 10, "bin_end": 12, "count": 29}, {"bin_start": 12, "bin_end": 14, "count": 71}, {"bin_start": 14, "bin_end": 16, "count": 127}, {"bin_start": 16, "bin_end": 18, "count": 94}, {"bin_start": 18, "bin_end": 20, "count": 54}, {"bin_start": 20, "bin_end": 22, "count": 17}, {"bin_start": 22, "bin_end": 24, "count": 5} ] }, "mark": "bar", "encoding": { "x": { "field": "bin_start", "bin": {"binned": true, "step": 2} }, "x2": {"field": "bin_end"}, "y": { "field": "count", "type": "quantitative" } } }
 ```
 
@@ -35,7 +35,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "data": {
-    "url": "assets/data/population.csv",
+    "url": "/assets/data/population.csv",
     "format": {"type": "csv"},
     "filter": {"field": "Country Name", "equal": "Germany"}
   },
@@ -51,7 +51,7 @@
 ## Chart from file
 
 ```vega-lite 
-{ "description": "A simple bar chart with embedded data.", "data": {"url" : "assets/charts/data/basic_bar_chart.json"}, "mark": {"type": "bar", "tooltip": true}, "encoding": { "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}}, "y": {"field": "b", "type": "quantitative"} } } 
+{ "description": "A simple bar chart with embedded data.", "data": {"url" : "assets/charts/chart_basic_bar_chart.json"}, "mark": {"type": "bar", "tooltip": true}, "encoding": { "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}}, "y": {"field": "b", "type": "quantitative"} } } 
 ```
 
 And much more you can find on the website.[^1]
