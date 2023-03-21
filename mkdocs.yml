@@ -101,8 +101,8 @@ markdown_extensions:
 
 plugins:
   - charts:
-      # use_data_path: true
-      # data_path: "obsidian-sandbox-mkdocs"
+      use_data_path: true
+      data_path: "obsidian-sandbox-mkdocs"
       vega_renderer: "canvas"
   - tags
   # https://blueswen.github.io/mkdocs-glightbox/
