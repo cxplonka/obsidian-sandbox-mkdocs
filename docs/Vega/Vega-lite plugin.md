@@ -48,6 +48,12 @@
 
 ```
 
+## Chart from file
+
+```vega-lite 
+{ "description": "A simple bar chart with embedded data.", "data": {"url" : "assets/charts/data/basic_bar_chart.json"}, "mark": {"type": "bar", "tooltip": true}, "encoding": { "x": {"field": "a", "type": "nominal", "axis": {"labelAngle": 0}}, "y": {"field": "b", "type": "quantitative"} } } 
+```
+
 And much more you can find on the website.[^1]
 
 [^1]: https://vega.github.io/vega-lite/examples/
