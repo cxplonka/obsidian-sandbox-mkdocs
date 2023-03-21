@@ -124,6 +124,8 @@ plugins:
         - .*slide.*.md
   # https://github.com/timvink/mkdocs-git-authors-plugin
   - git-authors
+  
+  use_directory_urls: true
 
 extra_javascript:
   - javascripts/mathjax.js
