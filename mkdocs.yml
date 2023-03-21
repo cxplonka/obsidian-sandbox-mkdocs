@@ -15,6 +15,8 @@ edit_uri: edit/main/docs/
 # Copyright
 copyright: Made with ❤️ by Christian
 
+use_directory_urls: true
+
 theme:
     name: 'material'
     locale: en
@@ -124,8 +126,6 @@ plugins:
         - .*slide.*.md
   # https://github.com/timvink/mkdocs-git-authors-plugin
   - git-authors
-  
-  use_directory_urls: true
 
 extra_javascript:
   - javascripts/mathjax.js
