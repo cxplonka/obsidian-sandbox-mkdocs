@@ -1,7 +1,8 @@
 # see https://www.mkdocs.org/user-guide/configuration/
 # Project information
 site_name: Obsidian + MkDocs Template
-site_url: https://cxplonka.github.io/obsidian-sandbox-mkdocs/
+site_url: 'https://cxplonka.github.io/obsidian-sandbox-mkdocs/'
+repo_url: 'https://cxplonka.github.io/obsidian-sandbox-mkdocs/'
 site_author: Christian Plonka
 site_description: >-
   Obsidian help vault build with MkDocs and use the Material theme
@@ -98,8 +99,8 @@ markdown_extensions:
 
 plugins:
   - charts:
-      use_data_path: true
-      data_path: "obsidian-sandbox-mkdocs"
+      # use_data_path: true
+      # data_path: "obsidian-sandbox-mkdocs"
       vega_renderer: "canvas"
   - tags
   # https://blueswen.github.io/mkdocs-glightbox/
