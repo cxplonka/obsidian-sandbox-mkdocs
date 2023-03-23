@@ -100,6 +100,7 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - inline-svg
   - charts:
       use_data_path: true
       data_path: "obsidian-sandbox-mkdocs"
