@@ -21,6 +21,8 @@ theme:
     name: 'material'
     locale: en
     custom_dir: .overrides
+    extra_css:
+      - 'assets/stylesheets/extra.css'
     favicon: 'assets/images/favicon.ico'
     
     features: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
