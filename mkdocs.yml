@@ -21,8 +21,6 @@ theme:
     name: 'material'
     locale: en
     custom_dir: .overrides
-    extra_css:
-      - 'assets/stylesheets/extra.css'
     favicon: 'assets/images/favicon.ico'
     
     features: # https://squidfunk.github.io/mkdocs-material/setup/setting-up-site-search/#search-suggestions
@@ -62,6 +60,9 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/cxplonka
 
+extra_css:
+  - 'assets/stylesheets/extra.css'
+  
 # Extensions
 markdown_extensions:
   - pymdownx.highlight: # https://squidfunk.github.io/mkdocs-material/setup/extensions/python-markdown-extensions/
